@@ -1,1 +1,1 @@
-# thesurus_elasticsearch_c4lj
+# thesaurus_elasticsearch_c4lj
