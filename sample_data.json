@@ -1,0 +1,107 @@
+[
+  {
+    "priref": [
+      1
+    ],
+    "term": [
+      "Astronomie"
+    ],
+    "term_code": [
+      "fr"
+    ],
+    "equivalent_term_lref": [
+      5
+    ],
+    "broader_term_lref": [
+      2
+    ],
+    "narrower_term_lref": [
+      3
+    ]
+  },
+  {
+    "priref": [
+      2
+    ],
+    "term": [
+      "Sciences naturelles"
+    ],
+    "term_code": [
+      "fr"
+    ],
+    "equivalent_term_lref": [
+      6
+    ],
+    "narrower_term_lref": [
+      1
+    ]
+  },
+  {
+    "priref": [
+      3
+    ],
+    "term": [
+      "Astrolabe"
+    ],
+    "term_code": [
+      "fr"
+    ],
+    "equivalent_term_lref": [
+      4
+    ],
+    "broader_term_lref": [
+      1
+    ]
+  },
+  {
+    "priref": [
+      4
+    ],
+    "term": [
+      "Astrolabium"
+    ],
+    "term_code": [
+      "nl"
+    ],
+    "equivalent_term_lref": [
+      3
+    ],
+    "broader_term_lref": [
+      5
+    ]
+  },
+  {
+    "priref": [
+      5
+    ],
+    "term": [
+      "Astronomie"
+    ],
+    "term_code": [
+      "nl"
+    ],
+    "equivalent_term_lref": [
+      1
+    ],
+    "broader_term_lref": [
+      6
+    ]
+  },
+  {
+    "priref": [
+      6
+    ],
+    "term": [
+      "Natuurwetenschappen"
+    ],
+    "term_code": [
+      "nl"
+    ],
+    "equivalent_term_lref": [
+      2
+    ],
+    "narrower_term_lref": [
+      5
+    ]
+  }
+]
