@@ -1,0 +1,20 @@
+[% IF priref.0 %] 
+thesau:[% priref.0 %] a skos:Concept ; 
+[%- FOREACH bterm IN broader_term_lref %] 
+    skos:broader thesau:[% bterm %] ; 
+[%- END %] 
+[%- FOREACH nterm IN narrower_term_lref %] 
+    skos:narrower thesau:[% nterm %] ; 
+[%- END %] 
+[%- FOREACH eterm IN equivalent_term_lref %] 
+    skos:exactMatch thesau:[% eterm %] ; 
+[%- END %] 
+[%- FOREACH rterm IN related_term_lref %] 
+    skos:relatedMatch thesau:[% rterm %] ; 
+[%- END %] 
+[%- IF term_code %] 
+    skos:prefLabel "[% term.0.dquote %]"@[% term_code.0 %] . 
+[%- ELSE %] 
+    skos:prefLabel "[% term.0.dquote %]" . 
+[%- END %] 
+[%- END %] 
